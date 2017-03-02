@@ -18,10 +18,10 @@ Using docker, there is no need for installing the required
 waveforms.
 
 ## wavedrom-cli options
--i <input wavedrom source filename>  
--p file.png <output PNG image file name>  
--p file.pdf <output PDF file name>  
--s <output SVG image file name>  
+**-i infile.json** *input wavedrom source filename*  
+**-p outfile.png** *output PNG image file name*  
+**-p outfile.pdf** *output PDF file name*  
+**-s outfile.svg** *output SVG image file name*  
 
 
 
