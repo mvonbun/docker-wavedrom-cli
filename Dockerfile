@@ -2,9 +2,9 @@ FROM wernight/phantomjs:latest
 
 # switch to root
 USER root
-RUN apt-get update && apt-get install -y \
-    git-core \
-    npm \
+RUN apt-get update \
+    && apt-get install -y git-core npm \
+    && apt-get clean \
     && cd /home/phantomjs \
     && mkdir wavedrom-cli \
     && git clone https://github.com/wavedrom/cli.git \
